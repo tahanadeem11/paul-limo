@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paul Limo & Airport Services — Luxury Chauffeur · Kennesaw, GA</title>
+  <meta name="description" content="Paul Limo & Airport Services — bespoke chauffeur, airport transfers, corporate travel & weddings in Kennesaw, GA. Available 24/7. Call (770) 598-9300." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Lottie -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.4/dist/lottie-player.js" defer></script>
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Paul Limo home">
+        <img src="assets/images/logo.png" alt="Paul Limo & Airport Services" />
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#fleet">Fleet</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#quote">Instant Quote</a></li>
+      </ul>
+      <a href="tel:7705989300" class="nav-cta">Reserve Your Chauffeur</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileDrawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <div class="mob-inner">
+      <ul role="list">
+        <li><a href="#fleet" class="mob-link">Fleet</a></li>
+        <li><a href="#services" class="mob-link">Services</a></li>
+        <li><a href="#experience" class="mob-link">Experience</a></li>
+        <li><a href="#quote" class="mob-link">Instant Quote</a></li>
+      </ul>
+      <a href="tel:7705989300" class="mob-cta">(770) 598-9300</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <section id="home" class="hero" aria-labelledby="hero-heading">
+    <div class="hero-bg" id="heroSlideshow">
+      <div class="hero-slide active" style="background-image:url('assets/images/maxresdefault.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('assets/images/orig.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('assets/images/7e97a1e93c7ccc125201fdf9fe66c038.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('assets/images/Wheely_CFAD-1024x683.jpg')"></div>
+      <div class="hero-slide" style="background-image:url('assets/images/transportation.jpg')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div id="heroParticles" class="hero-particles" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <div class="hero-inner">
+        <div class="hero-left">
+          <p class="hero-eyebrow">KENNESAW, GA &nbsp;&middot;&nbsp; AVAILABLE 24 / 7</p>
+          <h1 id="hero-heading" class="hero-title">
+            Where Luxury<br />Meets <em class="hero-gold">Precision.</em>
+          </h1>
+          <p class="hero-sub">
+            Bespoke chauffeur service for executives, weddings,<br class="br-desk" />
+            and every moment that demands perfection.
+          </p>
+          <div class="hero-badges">
+            <span class="badge">&#10022; 15+ Years of Excellence</span>
+            <span class="badge">&#10022; Flight Tracking Included</span>
+          </div>
+          <div class="hero-ctas">
+            <a href="#quote" class="btn-gold">Reserve Now</a>
+            <a href="#fleet" class="btn-ghost">Explore Fleet</a>
+          </div>
+        </div><!-- /.hero-left -->
+
+        <div class="hero-right" aria-hidden="true">
+          <div class="hero-stat-card">
+            <span class="hsc-eyebrow">&#10022; Paul Limo Excellence</span>
+            <div class="hsc-divider"></div>
+            <div class="hsc-grid">
+              <div class="hsc-item">
+                <strong>15+</strong>
+                <span>Years</span>
+              </div>
+              <div class="hsc-item">
+                <strong>5,000+</strong>
+                <span>Rides</span>
+              </div>
+              <div class="hsc-item">
+                <strong>98%</strong>
+                <span>On-Time</span>
+              </div>
+              <div class="hsc-item">
+                <strong>24/7</strong>
+                <span>Always Ready</span>
+              </div>
+            </div>
+            <a href="#quote" class="hsc-cta">Reserve Your Chauffeur</a>
+          </div>
+        </div><!-- /.hero-right -->
+      </div><!-- /.hero-inner -->
+
+      <a href="tel:7705989300" class="hero-mobile-call" aria-label="Call Paul Limo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" width="16" height="16"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.81 19.79 19.79 0 01.12 2.2 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
+        <span>(770) 598-9300</span>
+        <span class="hero-call-label">Available 24/7</span>
+      </a>
+    </div>
+
+    <!-- Gold vertical divider between hero columns -->
+    <div class="hero-col-divider" aria-hidden="true"></div>
+
+    <!-- Slideshow Progress Bars -->
+    <div class="hero-progress" id="heroProgress" aria-hidden="true">
+      <button class="hero-progress-bar active" aria-label="Slide 1"></button>
+      <button class="hero-progress-bar" aria-label="Slide 2"></button>
+      <button class="hero-progress-bar" aria-label="Slide 3"></button>
+      <button class="hero-progress-bar" aria-label="Slide 4"></button>
+      <button class="hero-progress-bar" aria-label="Slide 5"></button>
+    </div>
+
+    <!-- Edition Accent -->
+    <div class="hero-edition" aria-hidden="true">
+      <span class="hero-edition-num">24/7</span>
+      <span class="hero-edition-label">Always Available</span>
+    </div>
+
+    <!-- Quick Booking Bar -->
+    <div class="booking-bar">
+      <div class="booking-bar-inner">
+        <div class="bb-field">
+          <label for="bb-pickup">Pickup Location</label>
+          <input type="text" id="bb-pickup" placeholder="Airport, hotel, address&hellip;" autocomplete="off" />
+        </div>
+        <div class="bb-sep" aria-hidden="true"></div>
+        <div class="bb-field">
+          <label for="bb-dropoff">Drop-off</label>
+          <input type="text" id="bb-dropoff" placeholder="Destination" autocomplete="off" />
+        </div>
+        <div class="bb-sep" aria-hidden="true"></div>
+        <div class="bb-field">
+          <label for="bb-date">Date &amp; Time</label>
+          <input type="datetime-local" id="bb-date" />
+        </div>
+        <div class="bb-sep" aria-hidden="true"></div>
+        <div class="bb-field">
+          <label for="bb-vehicle">Vehicle Class</label>
+          <select id="bb-vehicle">
+            <option value="">Select class</option>
+            <option>Executive Sedan</option>
+            <option>Luxury SUV</option>
+            <option>Stretch Limousine</option>
+            <option>Sprinter Van</option>
+          </select>
+        </div>
+        <button class="bb-btn" id="bbCheckBtn">Check Availability</button>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-chevron"></span>
+    </div>
+  </section>
+
+  <!-- STATS RIBBON -->
+  <div class="stats-ribbon" aria-label="Company statistics">
+    <div class="stat-item">
+      <span class="stat-num"><span class="count" data-target="15">0</span>+</span>
+      <span class="stat-label">Years of Excellence</span>
+    </div>
+    <div class="stat-sep" aria-hidden="true"></div>
+    <div class="stat-item">
+      <span class="stat-num"><span class="count" data-target="5000">0</span>+</span>
+      <span class="stat-label">Rides Completed</span>
+    </div>
+    <div class="stat-sep" aria-hidden="true"></div>
+    <div class="stat-item">
+      <span class="stat-num"><span class="count" data-target="98">0</span>%</span>
+      <span class="stat-label">On-Time Arrival</span>
+    </div>
+    <div class="stat-sep" aria-hidden="true"></div>
+    <div class="stat-item">
+      <span class="stat-num"><span class="count" data-target="24">0</span>/7</span>
+      <span class="stat-label">Always Available</span>
+    </div>
+  </div>
+
+  <!-- SERVICES — HIERARCHICAL GRID -->
+  <section id="services" class="services-section" aria-labelledby="services-heading">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">What We Offer</span>
+        <h2 id="services-heading" class="section-title">Exceptional Services,<br /><em>Flawlessly Delivered</em></h2>
+      </div>
+
+      <div class="svc-grid">
+
+        <!-- Card 1: Featured (large) -->
+        <article class="svc-card svc-card--featured reveal" style="--delay:0ms" aria-label="Airport VIP Transfers">
+          <img src="assets/images/airport.webp" alt="Airport VIP Transfers" loading="lazy" class="svc-card-bg" />
+          <div class="svc-card-overlay"></div>
+          <div class="svc-card-body">
+            <span class="svc-card-num">01</span>
+            <h3 class="svc-card-title">Airport VIP Transfers</h3>
+            <p class="svc-card-desc">Seamless arrivals and departures with real-time flight tracking — your chauffeur is always ready, even when schedules change.</p>
+            <ul class="svc-card-features">
+              <li>Real-time flight tracking</li>
+              <li>Meet &amp; Greet with name sign</li>
+              <li>Complimentary wait time</li>
+            </ul>
+            <a href="#quote" class="svc-card-cta">Book This Service <span aria-hidden="true">&#8594;</span></a>
+          </div>
+        </article>
+
+        <!-- Card 2: Corporate -->
+        <article class="svc-card reveal" style="--delay:80ms" aria-label="Corporate & Executive Travel">
+          <img src="assets/images/145.jpg" alt="Corporate Executive Travel" loading="lazy" class="svc-card-bg" />
+          <div class="svc-card-overlay"></div>
+          <div class="svc-card-body">
+            <span class="svc-card-num">02</span>
+            <h3 class="svc-card-title">Corporate &amp; Executive Travel</h3>
+            <p class="svc-card-desc">Discreet, punctual, and professional — everything your business demands.</p>
+            <a href="#quote" class="svc-card-cta">Book This Service <span aria-hidden="true">&#8594;</span></a>
+          </div>
+        </article>
+
+        <!-- Card 3: Weddings -->
+        <article class="svc-card reveal" style="--delay:160ms" aria-label="Weddings & Special Occasions">
+          <img src="assets/images/couple-wedding-car-guy-hearn.jpg" alt="Wedding Transportation" loading="lazy" class="svc-card-bg" />
+          <div class="svc-card-overlay"></div>
+          <div class="svc-card-body">
+            <span class="svc-card-num">03</span>
+            <h3 class="svc-card-title">Weddings &amp; Special Occasions</h3>
+            <p class="svc-card-desc">Decorated fleet, red carpet service, and meticulous coordination for your perfect day.</p>
+            <a href="#quote" class="svc-card-cta">Book This Service <span aria-hidden="true">&#8594;</span></a>
+          </div>
+        </article>
+
+        <!-- Card 4: Private Tours -->
+        <article class="svc-card reveal" style="--delay:240ms" aria-label="Private Tours & Hourly Charter">
+          <img src="assets/images/word-image-47966-1.webp" alt="Private City Tour" loading="lazy" class="svc-card-bg" />
+          <div class="svc-card-overlay"></div>
+          <div class="svc-card-body">
+            <span class="svc-card-num">04</span>
+            <h3 class="svc-card-title">Private Tours &amp; Hourly Charter</h3>
+            <p class="svc-card-desc">Your schedule, your route — explore Atlanta in style with a dedicated chauffeur by the hour.</p>
+            <a href="#quote" class="svc-card-cta">Book This Service <span aria-hidden="true">&#8594;</span></a>
+          </div>
+        </article>
+
+        <!-- Card 5: Events -->
+        <article class="svc-card reveal" style="--delay:320ms" aria-label="Events, Concerts & Red Carpet">
+          <img src="assets/images/wedding1.webp" alt="Events and Red Carpet" loading="lazy" class="svc-card-bg" />
+          <div class="svc-card-overlay"></div>
+          <div class="svc-card-body">
+            <span class="svc-card-num">05</span>
+            <h3 class="svc-card-title">Events, Concerts &amp; Red Carpet</h3>
+            <p class="svc-card-desc">Arrive in unforgettable style for galas, concerts, proms, and VIP occasions.</p>
+            <a href="#quote" class="svc-card-cta">Book This Service <span aria-hidden="true">&#8594;</span></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOWCASE VISUAL BREAK -->
+  <div class="showcase-section" aria-label="Paul Limo luxury experience">
+    <div class="showcase-bg">
+      <img src="assets/images/Screenshot-2025-09-22-162902.webp" alt="" loading="lazy" />
+    </div>
+    <div class="showcase-overlay"></div>
+    <div class="showcase-content">
+      <p class="showcase-tag reveal">The Paul Limo Promise</p>
+      <div class="showcase-rule reveal" style="--delay:60ms"></div>
+      <p class="showcase-quote reveal" style="--delay:120ms">
+        Every journey is a statement.<br />Every arrival, <strong>an impression.</strong>
+      </p>
+      <a href="#quote" class="showcase-cta reveal" style="--delay:240ms">
+        Reserve Your Chauffeur
+        <span class="showcase-cta-arrow" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+
+  <!-- FLEET SHOWCASE -->
+  <section id="fleet" class="fleet-section" aria-labelledby="fleet-heading">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Our Fleet</span>
+        <h2 id="fleet-heading" class="section-title">Elite Vehicles,<br /><em>Immaculately Maintained</em></h2>
+      </div>
+
+      <div class="fleet-tabs" role="tablist" aria-label="Vehicle categories">
+        <button class="fleet-tab active" role="tab" aria-selected="true" aria-controls="panel-sedan" data-panel="sedan">Executive Sedans</button>
+        <button class="fleet-tab" role="tab" aria-selected="false" aria-controls="panel-suv" data-panel="suv">Luxury SUVs</button>
+        <button class="fleet-tab" role="tab" aria-selected="false" aria-controls="panel-limo" data-panel="limo">Stretch Limousines</button>
+        <button class="fleet-tab" role="tab" aria-selected="false" aria-controls="panel-sprinter" data-panel="sprinter">Sprinter Vans</button>
+      </div>
+
+      <div class="fleet-panels">
+
+        <div class="fleet-panel active" id="panel-sedan" role="tabpanel">
+          <div class="fleet-panel-inner">
+            <div class="fleet-img-wrap">
+              <img src="assets/images/148.jpg" alt="Executive Sedan" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3 class="fleet-name">Executive Sedan</h3>
+              <p class="fleet-tagline">Refined composure for the discerning professional.</p>
+              <div class="fleet-specs">
+                <div class="spec"><span class="spec-val">3</span><span class="spec-key">Passengers</span></div>
+                <div class="spec"><span class="spec-val">3</span><span class="spec-key">Luggage</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Wi-Fi</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Charging</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Climate</span></div>
+              </div>
+              <button class="fleet-book-btn" data-vehicle="Executive Sedan">Request This Vehicle</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="fleet-panel" id="panel-suv" role="tabpanel" hidden>
+          <div class="fleet-panel-inner">
+            <div class="fleet-img-wrap">
+              <img src="assets/images/dc.jpg" alt="Luxury SUV" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3 class="fleet-name">Luxury SUV</h3>
+              <p class="fleet-tagline">Space, power, and presence for every occasion.</p>
+              <div class="fleet-specs">
+                <div class="spec"><span class="spec-val">6</span><span class="spec-key">Passengers</span></div>
+                <div class="spec"><span class="spec-val">4</span><span class="spec-key">Luggage</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Wi-Fi</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Charging</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Climate</span></div>
+              </div>
+              <button class="fleet-book-btn" data-vehicle="Luxury SUV">Request This Vehicle</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="fleet-panel" id="panel-limo" role="tabpanel" hidden>
+          <div class="fleet-panel-inner">
+            <div class="fleet-img-wrap">
+              <img src="assets/images/0923f7514fde4e8030fd5fa130404f1e.jpg" alt="Stretch Limousine" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3 class="fleet-name">Stretch Limousine</h3>
+              <p class="fleet-tagline">The pinnacle of luxury &mdash; unforgettable entrances guaranteed.</p>
+              <div class="fleet-specs">
+                <div class="spec"><span class="spec-val">10</span><span class="spec-key">Passengers</span></div>
+                <div class="spec"><span class="spec-val">&mdash;</span><span class="spec-key">Luggage</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Bar</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Lighting</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Sound</span></div>
+              </div>
+              <button class="fleet-book-btn" data-vehicle="Stretch Limousine">Request This Vehicle</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="fleet-panel" id="panel-sprinter" role="tabpanel" hidden>
+          <div class="fleet-panel-inner">
+            <div class="fleet-img-wrap">
+              <img src="assets/images/XXL_height.webp" alt="Sprinter Van" loading="lazy" />
+            </div>
+            <div class="fleet-info">
+              <h3 class="fleet-name">Sprinter Van</h3>
+              <p class="fleet-tagline">Group travel elevated &mdash; comfort and efficiency combined.</p>
+              <div class="fleet-specs">
+                <div class="spec"><span class="spec-val">14</span><span class="spec-key">Passengers</span></div>
+                <div class="spec"><span class="spec-val">8</span><span class="spec-key">Luggage</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Wi-Fi</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Charging</span></div>
+                <div class="spec"><span class="spec-val">&#10003;</span><span class="spec-key">Climate</span></div>
+              </div>
+              <button class="fleet-book-btn" data-vehicle="Sprinter Van">Request This Vehicle</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAUFFEUR STANDARD (DARK) -->
+  <section id="experience" class="standard-section" aria-labelledby="standard-heading">
+    <div class="section-container">
+      <div class="section-header reveal" style="--delay:0ms">
+        <span class="section-eyebrow section-eyebrow--light">Our Commitment</span>
+        <h2 id="standard-heading" class="section-title section-title--light">The Chauffeur<br /><em>Standard</em></h2>
+      </div>
+
+      <div class="standard-visual reveal" style="--delay:80ms">
+        <div class="std-vis-img">
+          <img src="assets/images/caption.jpg" alt="Professional chauffeur door service" loading="lazy" />
+        </div>
+        <div class="std-vis-img">
+          <img src="assets/images/361e6a22-e582-42c4-aedd-68ccc9a8ac97.webp" alt="Luxury chauffeur service" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="standard-grid">
+        <div class="standard-card reveal" style="--delay:0ms">
+          <div class="std-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="16" r="8" stroke="currentColor" stroke-width="1.8"/><path d="M8 40c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M30 22l4 4 8-8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Vetted &amp; Punctual</h3>
+          <p>Every chauffeur passes background checks, drug screening, and defensive driving certification. GPS tracking ensures on-time performance &mdash; every time.</p>
+        </div>
+        <div class="standard-card reveal" style="--delay:100ms">
+          <div class="std-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="14" width="32" height="22" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M16 22h16M16 29h10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M16 8v8M32 8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Pristine Interiors</h3>
+          <p>Each vehicle is hand-detailed and sanitized before every ride. Leather conditioning, fragrance-fresh cabins, and spotless glass &mdash; guaranteed before you board.</p>
+        </div>
+        <div class="standard-card reveal" style="--delay:200ms">
+          <div class="std-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6L8 13v11c0 10 8 18 16 20 8-2 16-10 16-20V13L24 6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M17 24l5 5 9-9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Complete Confidentiality</h3>
+          <p>Discretion is non-negotiable. Our chauffeurs operate under full NDA-compliant protocols. What happens in your ride, stays in your ride.</p>
+        </div>
+        <div class="standard-card reveal" style="--delay:300ms">
+          <div class="std-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 8v8M40 24h-8M24 40v-8M8 24h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="24" cy="24" r="6" stroke="currentColor" stroke-width="1.8"/><circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="1.8" stroke-dasharray="4 4"/></svg>
+          </div>
+          <h3>Real-Time Telematics</h3>
+          <p>Live status updates sent to your phone. Know exactly when your chauffeur departs, arrives en route, and pulls up &mdash; no guessing, no stress.</p>
+        </div>
+      </div>
+
+      <!-- Booking Timeline -->
+      <div class="timeline-wrap reveal" style="--delay:400ms">
+        <h3 class="timeline-heading">How It Works</h3>
+        <div class="timeline" role="list">
+          <div class="tl-step" role="listitem"><div class="tl-num">1</div><div class="tl-text"><strong>Book</strong><span>Online or by phone</span></div></div>
+          <div class="tl-line" aria-hidden="true"></div>
+          <div class="tl-step" role="listitem"><div class="tl-num">2</div><div class="tl-text"><strong>Confirmed</strong><span>Instant email &amp; SMS</span></div></div>
+          <div class="tl-line" aria-hidden="true"></div>
+          <div class="tl-step" role="listitem"><div class="tl-num">3</div><div class="tl-text"><strong>Assigned</strong><span>Chauffeur profile sent</span></div></div>
+          <div class="tl-line" aria-hidden="true"></div>
+          <div class="tl-step" role="listitem"><div class="tl-num">4</div><div class="tl-text"><strong>Reminder</strong><span>Day-before notification</span></div></div>
+          <div class="tl-line" aria-hidden="true"></div>
+          <div class="tl-step" role="listitem"><div class="tl-num">5</div><div class="tl-text"><strong>Arrival</strong><span>Live tracking alert</span></div></div>
+          <div class="tl-line" aria-hidden="true"></div>
+          <div class="tl-step" role="listitem"><div class="tl-num">6</div><div class="tl-text"><strong>Enjoy</strong><span>Pure, effortless travel</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTANT QUOTE FORM -->
+  <section id="quote" class="quote-section" aria-labelledby="quote-heading">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Reserve Today</span>
+        <h2 id="quote-heading" class="section-title">Instant Quote &amp;<br /><em>Reservation</em></h2>
+      </div>
+
+      <div class="form-wrap reveal" style="--delay:100ms">
+        <div class="step-indicator" aria-label="Form steps">
+          <div class="step-dot active" data-step="1"><span>1</span></div>
+          <div class="step-line" aria-hidden="true"></div>
+          <div class="step-dot" data-step="2"><span>2</span></div>
+          <div class="step-line" aria-hidden="true"></div>
+          <div class="step-dot" data-step="3"><span>3</span></div>
+        </div>
+        <div class="step-labels" aria-hidden="true">
+          <span>Trip Details</span>
+          <span>Vehicle &amp; Extras</span>
+          <span>Your Info</span>
+        </div>
+
+        <form id="quoteForm" novalidate>
+
+          <!-- Step 1 -->
+          <div class="form-step active" data-step="1">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="f-pickup">Pickup Location <span aria-hidden="true">*</span></label>
+                <input type="text" id="f-pickup" name="pickup" placeholder="Airport, hotel, or address" required autocomplete="off" />
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="f-dropoff">Drop-off Location <span aria-hidden="true">*</span></label>
+                <input type="text" id="f-dropoff" name="dropoff" placeholder="Destination" required autocomplete="off" />
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="f-date">Date <span aria-hidden="true">*</span></label>
+                <input type="date" id="f-date" name="date" required />
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="f-time">Time <span aria-hidden="true">*</span></label>
+                <input type="time" id="f-time" name="time" required />
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="f-notes">Special Requests</label>
+              <textarea id="f-notes" name="notes" rows="3" placeholder="Child seat, extra luggage, any other requests&hellip;"></textarea>
+            </div>
+            <div class="form-nav">
+              <button type="button" class="btn-gold form-next" data-next="2">Continue <span aria-hidden="true">&rarr;</span></button>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="form-step" data-step="2" hidden>
+            <p class="step-intro">Select your vehicle class:</p>
+            <div class="vehicle-cards" role="radiogroup" aria-label="Vehicle class">
+              <label class="vc-card">
+                <input type="radio" name="vehicle" value="Executive Sedan" />
+                <div class="vc-inner"><span class="vc-name">Executive Sedan</span><span class="vc-cap">Up to 3 passengers</span></div>
+              </label>
+              <label class="vc-card">
+                <input type="radio" name="vehicle" value="Luxury SUV" />
+                <div class="vc-inner"><span class="vc-name">Luxury SUV</span><span class="vc-cap">Up to 6 passengers</span></div>
+              </label>
+              <label class="vc-card">
+                <input type="radio" name="vehicle" value="Stretch Limousine" />
+                <div class="vc-inner"><span class="vc-name">Stretch Limousine</span><span class="vc-cap">Up to 10 passengers</span></div>
+              </label>
+              <label class="vc-card">
+                <input type="radio" name="vehicle" value="Sprinter Van" />
+                <div class="vc-inner"><span class="vc-name">Sprinter Van</span><span class="vc-cap">Up to 14 passengers</span></div>
+              </label>
+            </div>
+            <span class="field-error vehicle-error" aria-live="polite"></span>
+            <div class="extras-list">
+              <p class="extras-label">Add-ons:</p>
+              <label class="checkbox-row"><input type="checkbox" name="extras" value="Meet & Greet" /> Meet &amp; Greet at arrival</label>
+              <label class="checkbox-row"><input type="checkbox" name="extras" value="Extra Stop" /> Extra stop en route</label>
+              <label class="checkbox-row"><input type="checkbox" name="extras" value="Red Carpet" /> Red carpet arrival</label>
+              <label class="checkbox-row"><input type="checkbox" name="extras" value="Refreshments" /> Refreshments / champagne</label>
+            </div>
+            <div class="form-nav">
+              <button type="button" class="btn-outline form-prev" data-prev="1"><span aria-hidden="true">&larr;</span> Back</button>
+              <button type="button" class="btn-gold form-next" data-next="3">Continue <span aria-hidden="true">&rarr;</span></button>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="form-step" data-step="3" hidden>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="f-name">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="f-name" name="name" placeholder="Your name" required autocomplete="name" />
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+              <div class="form-group">
+                <label for="f-phone">Phone Number <span aria-hidden="true">*</span></label>
+                <input type="tel" id="f-phone" name="phone" placeholder="(xxx) xxx-xxxx" required autocomplete="tel" />
+                <span class="field-error" aria-live="polite"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="f-email">Email Address <span aria-hidden="true">*</span></label>
+              <input type="email" id="f-email" name="email" placeholder="you@email.com" required autocomplete="email" />
+              <span class="field-error" aria-live="polite"></span>
+            </div>
+            <div class="form-nav">
+              <button type="button" class="btn-outline form-prev" data-prev="2"><span aria-hidden="true">&larr;</span> Back</button>
+              <button type="submit" class="btn-gold">Send My Request</button>
+            </div>
+          </div>
+
+          <!-- Success -->
+          <div class="form-success" id="formSuccess" hidden aria-live="polite">
+            <lottie-player
+              src="https://lottie.host/0e721d71-c012-49d8-bae7-0c5e35ab985c/M4w7G5pQKi.json"
+              background="transparent" speed="1" style="width:80px;height:80px" autoplay
+              class="lottie-success"
+            ></lottie-player>
+            <div class="success-fallback" aria-hidden="true">
+              <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="28" stroke="#D4AF37" stroke-width="2"/><path d="M20 32l9 9 15-15" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>We've Received Your Request!</h3>
+            <p>A Paul Limo representative will be in touch within <strong>15 minutes</strong>. For urgent requests, call us at <a href="tel:7705989300">(770) 598-9300</a>.</p>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testi-section" aria-labelledby="testi-heading">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <span class="section-eyebrow">Client Stories</span>
+        <h2 id="testi-heading" class="section-title">What Our Clients<br /><em>Are Saying</em></h2>
+      </div>
+
+      <div class="testi-carousel reveal" style="--delay:100ms">
+        <button class="testi-arrow testi-prev" aria-label="Previous testimonial">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+
+        <div class="testi-track" id="testiTrack" aria-live="polite">
+          <div class="testi-slide active" role="article">
+            <div class="testi-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote><p>&ldquo;Paul Limo made our wedding day absolutely perfect. The stretch limo was immaculate, our chauffeur was professional and warm, and every detail was handled flawlessly. I&rsquo;d recommend them to anyone.&rdquo;</p></blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar" aria-hidden="true">SM</div>
+              <div><strong>Sarah M.</strong><span>Wedding Client, Atlanta</span></div>
+            </div>
+          </div>
+          <div class="testi-slide" role="article">
+            <div class="testi-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote><p>&ldquo;As someone who travels weekly for business, reliability is everything. Paul Limo has never once missed a pickup. The vehicles are always pristine and the chauffeurs are models of professionalism.&rdquo;</p></blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar" aria-hidden="true">JK</div>
+              <div><strong>James K.</strong><span>VP Operations, Fortune 500</span></div>
+            </div>
+          </div>
+          <div class="testi-slide" role="article">
+            <div class="testi-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote><p>&ldquo;Our prom group felt like celebrities. The limo was gorgeous, the playlist was perfect, and we arrived in absolute style. Paul Singh personally checked in with us &mdash; that personal touch is rare.&rdquo;</p></blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar" aria-hidden="true">AR</div>
+              <div><strong>Alyssa R.</strong><span>Prom Client, Kennesaw</span></div>
+            </div>
+          </div>
+          <div class="testi-slide" role="article">
+            <div class="testi-stars" aria-label="5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote><p>&ldquo;I&rsquo;ve used luxury car services across 12 cities. Paul Limo ranks among the very best. The flight tracking meant my chauffeur was there before I cleared customs. That kind of service is priceless.&rdquo;</p></blockquote>
+            <div class="testi-author">
+              <div class="testi-avatar" aria-hidden="true">RD</div>
+              <div><strong>Robert D.</strong><span>Executive Traveler</span></div>
+            </div>
+          </div>
+        </div>
+
+        <button class="testi-arrow testi-next" aria-label="Next testimonial">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+
+      <div class="testi-dots" id="testiDots" role="tablist" aria-label="Testimonial navigation">
+        <button class="t-dot active" role="tab" aria-selected="true" aria-label="Testimonial 1"></button>
+        <button class="t-dot" role="tab" aria-selected="false" aria-label="Testimonial 2"></button>
+        <button class="t-dot" role="tab" aria-selected="false" aria-label="Testimonial 3"></button>
+        <button class="t-dot" role="tab" aria-selected="false" aria-label="Testimonial 4"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-gold-line" aria-hidden="true"></div>
+    <div class="footer-container">
+      <div class="footer-grid">
+
+        <div class="footer-col footer-brand">
+          <img src="assets/images/logo.png" alt="Paul Limo & Airport Services" class="footer-logo" />
+          <p class="footer-tagline">Bespoke luxury transportation serving Kennesaw, Atlanta, and the entire metro area &mdash; 24 hours a day, 7 days a week.</p>
+          <div class="footer-contact">
+            <a href="tel:7705989300" class="footer-contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.81 19.79 19.79 0 01.12 2.2 2 2 0 012.11 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92v2z"/></svg>
+              (770) 598-9300
+            </a>
+            <a href="mailto:Rideswithpaul@gmail.com" class="footer-contact-link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              Rideswithpaul@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links" role="list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#fleet">Our Fleet</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#quote">Book Now</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Airports Served</h4>
+          <ul class="footer-links footer-airports" role="list">
+            <li>Hartsfield-Jackson (ATL)</li>
+            <li>Peachtree-DeKalb (PDK)</li>
+            <li>Cobb County (RYY)</li>
+            <li>Falcon Field (FFC)</li>
+            <li>Dobbins ARB (MGE)</li>
+            <li>+ All Metro Atlanta Airports</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-col-title">Stay Updated</h4>
+          <p class="footer-newsletter-text">Get exclusive offers and travel tips from Paul Limo.</p>
+          <form class="footer-newsletter" aria-label="Newsletter signup" onsubmit="return false;">
+            <input type="email" placeholder="Your email address" aria-label="Email address" />
+            <button type="submit">Subscribe</button>
+          </form>
+          <div class="footer-address">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <address>1718 McCook Ct NW<br />Kennesaw, GA 30144</address>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="footer-year"></span> Paul Limo &amp; Airport Services. All rights reserved. Designed by <a href="https://nextlevelrankers.com/" target="_blank" rel="noopener" class="footer-nlr-link">Next Level Rankers</a>.</p>
+        <p class="footer-legal">Licensed &amp; Insured &nbsp;&middot;&nbsp; Serving Metro Atlanta &nbsp;&middot;&nbsp; Owner: Paul Singh</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
